@@ -1,4 +1,8 @@
 const promise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve(100)
+
+    }, 1000);
 
 
     let random = Math.floor(Math.random() * 10) + 1
